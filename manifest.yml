@@ -1,0 +1,7 @@
+---
+applications:
+- name: just-demo
+  memory: 700M
+  instances: 1
+  random-route: true
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
